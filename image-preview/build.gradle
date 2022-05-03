@@ -28,9 +28,9 @@ android {
         compose true
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerVersion '1.5.30'
     }
     kotlinOptions {
         jvmTarget = '1.8'
